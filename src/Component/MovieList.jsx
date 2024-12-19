@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./MovieList.css";
 
-
 const MovieList = (props) => {
   const [favorites, setFavorites] = useState([]);
   const [listName, setListName] = useState("");
